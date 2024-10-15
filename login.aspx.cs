@@ -102,6 +102,7 @@ namespace Project.NET
                             Session["Name"] = reader["Name"].ToString();
                             Session["Email"] = reader["Email"].ToString();
                             Session["Id"] = reader["Id"].ToString();
+                            Session["Department"] = reader["Department"].ToString();
 
                             // Redirect to dashboard
                             Response.Redirect("dashboard.aspx");

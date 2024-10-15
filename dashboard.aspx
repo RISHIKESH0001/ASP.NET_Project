@@ -23,6 +23,7 @@
             color: white;
             padding-top: 20px;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            height: fit-content;
         }
 
         .sidebar h2 {
@@ -101,9 +102,10 @@
                         <li><asp:LinkButton ID="Profiles" runat="server" PostBackUrl="~/profile.aspx">PROFILE</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Details" runat="server" PostBackUrl="~/details.aspx">DETAILS</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Log_Out" runat="server" OnClick="Log_Out_Click">LOG_OUT</asp:LinkButton></li>
+                        <li ><asp:LinkButton ID="Result" runat="server" PostBackUrl="~/Result.aspx">RESULT</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Fee_Payment" runat="server" PostBackUrl="~/FeePayment.aspx">FEE_PAYMENT</asp:LinkButton></li>
-                        <li><asp:LinkButton ID="Admission" runat="server" PostBackUrl="~/admission_data.aspx">ADMISSION</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Students" runat="server" PostBackUrl="~/students.aspx">STUDENTS</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="Admission" runat="server" PostBackUrl="~/admission_data.aspx">ADMISSION</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Faculties" runat="server" PostBackUrl="~/faculties.aspx">FACULTIES</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Administration" runat="server" PostBackUrl="~/Administration.aspx">ADMINISTRATION</asp:LinkButton></li>
                     </ul>
