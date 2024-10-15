@@ -49,12 +49,10 @@ code {
     }
 
     nav {
-        width:99%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px;
-/*        box-shadow: 5px 5px darkgreen;*/
         background:radial-gradient(ellipse at top,blue,silver),
         radial-gradient(ellipse at bottom,cyan,silver);
         flex-wrap: wrap; /* Allows items to wrap on smaller screens */
@@ -79,8 +77,6 @@ code {
     text-shadow:2px 2px rgb(8, 27, 60);
     }
     .menu {
-/*        border: 6px solid rgb(239, 14, 14);*/
-/*        box-shadow: 5px 5px #264f35;*/
         padding:10px 10px 0px 20px;
         display: flex;
         width:100%;

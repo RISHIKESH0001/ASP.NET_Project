@@ -36,9 +36,11 @@ namespace Project.NET
                     BindGridViewForRole(Session["UserId"].ToString());
                     Admission.Visible = false;
                     Fee_Payment.Visible = false;
-                    Students.Visible = false;
                     Faculties.Visible = false;
+                    Students.Visible = false;
                     Administration.Visible = false;
+                    Result.PostBackUrl = "Sheetupload.aspx";
+
                 }
                 else if (userRole.Equals("Admin", StringComparison.OrdinalIgnoreCase))
                 {

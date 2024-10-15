@@ -60,6 +60,15 @@ namespace Project.NET
         protected global::System.Web.UI.WebControls.LinkButton Log_Out;
 
         /// <summary>
+        /// Result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Result;
+
+        /// <summary>
         /// Fee_Payment control.
         /// </summary>
         /// <remarks>
@@ -69,15 +78,6 @@ namespace Project.NET
         protected global::System.Web.UI.WebControls.LinkButton Fee_Payment;
 
         /// <summary>
-        /// Admission control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton Admission;
-
-        /// <summary>
         /// Students control.
         /// </summary>
         /// <remarks>
@@ -85,6 +85,15 @@ namespace Project.NET
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton Students;
+
+        /// <summary>
+        /// Admission control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Admission;
 
         /// <summary>
         /// Faculties control.

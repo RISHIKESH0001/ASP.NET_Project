@@ -204,8 +204,10 @@
     <Content Include="login.aspx" />
     <Content Include="Payment_Data.aspx" />
     <Content Include="profile.aspx" />
+    <Content Include="Result.aspx" />
     <Content Include="Scripts\MicrosoftAjax.debug.js" />
     <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Sheetupload.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="students.aspx" />
     <Content Include="Web.config" />
@@ -289,6 +291,20 @@
       <DependentUpon>profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.aspx.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Result.aspx.designer.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sheetupload.aspx.cs">
+      <DependentUpon>Sheetupload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sheetupload.aspx.designer.cs">
+      <DependentUpon>Sheetupload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -314,7 +330,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
