@@ -160,9 +160,9 @@
     <Content Include="Images\adobe.png" />
     <Content Include="Images\apple.jpeg" />
     <Content Include="Images\carol.jpg" />
-    <Content Include="Images\cat.jpeg" />
     <Content Include="Images\cisco.png" />
     <Content Include="Images\dell.png" />
+    <Content Include="Images\dog.jpeg" />
     <Content Include="Images\download.png" />
     <Content Include="Images\event-bg.jpg" />
     <Content Include="Images\ford.jpeg" />
@@ -185,6 +185,7 @@
     <Content Include="Images\provogue.png" />
     <Content Include="Images\ps.jpg" />
     <Content Include="Images\reliance.jpeg" />
+    <Content Include="Images\rs.jpg" />
     <Content Include="Images\screenshot-1725995174954.png" />
     <Content Include="Images\signup-bg.jpg" />
     <Content Include="Images\sony.jpeg" />
@@ -207,6 +208,7 @@
     <Content Include="profile.aspx" />
     <Content Include="profile_selection.aspx" />
     <Content Include="Result.aspx" />
+    <Content Include="result_selection.aspx" />
     <Content Include="Scripts\MicrosoftAjax.debug.js" />
     <Content Include="Scripts\MicrosoftAjax.js" />
     <Content Include="Sheetupload.aspx" />
@@ -306,6 +308,13 @@
     </Compile>
     <Compile Include="Result.aspx.designer.cs">
       <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="result_selection.aspx.cs">
+      <DependentUpon>result_selection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="result_selection.aspx.designer.cs">
+      <DependentUpon>result_selection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sheetupload.aspx.cs">
       <DependentUpon>Sheetupload.aspx</DependentUpon>

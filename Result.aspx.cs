@@ -12,7 +12,7 @@ namespace Project.NET
         protected void Page_Load(object sender, EventArgs e)
         {
             // Check if user is a student
-            if (Session["Role"] == null || Session["Role"].ToString() != "Student")
+            if (Session["Role"] == null)
             {
                 Response.Redirect("login.aspx");
             }
