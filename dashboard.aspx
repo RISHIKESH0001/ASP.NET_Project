@@ -99,7 +99,7 @@
                 <nav>
                     <ul>
                         <li><asp:LinkButton ID="Home" runat="server" PostBackUrl="~/index.aspx">HOME</asp:LinkButton></li>
-                        <li><asp:LinkButton ID="Profiles" runat="server" PostBackUrl="~/profile.aspx">PROFILE</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="Profiles" runat="server" PostBackUrl="~/profile_selection.aspx">PROFILE</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Details" runat="server" PostBackUrl="~/details.aspx">DETAILS</asp:LinkButton></li>
                         <li><asp:LinkButton ID="Log_Out" runat="server" OnClick="Log_Out_Click">LOG_OUT</asp:LinkButton></li>
                         <li ><asp:LinkButton ID="Result" runat="server" PostBackUrl="~/Result.aspx">RESULT</asp:LinkButton></li>

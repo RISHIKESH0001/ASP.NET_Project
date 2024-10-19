@@ -69,6 +69,15 @@ namespace Project.NET
         protected global::System.Web.UI.WebControls.Label EmailLabel;
 
         /// <summary>
+        /// uploads control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl uploads;
+
+        /// <summary>
         /// FileUpload1 control.
         /// </summary>
         /// <remarks>

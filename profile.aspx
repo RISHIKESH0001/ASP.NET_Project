@@ -11,7 +11,7 @@
             font-family: 'Arial', sans-serif;
              background:linear-gradient(45deg, #8a3489, transparent);
              background-size:100% 120%;
-             background-repeat:no-repeat;
+             background-repeat:repeat;
             margin: 0;
             padding: 0;
             color: #333;
@@ -167,7 +167,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    <asp:Image ID="GridImage" Height="150" Width="150" ImageUrl='<%# Eval("image_name") %>' runat="server" />
+                                    <asp:Image ID="ProfileImage" Height="150" Width="150" ImageUrl='<%# Eval("image_name") %>' runat="server" />
                                 </td>
                             </tr>
                         </table>
@@ -199,7 +199,7 @@
         </table>
 
         <h2>Uploaded Documents</h2>
-        <div class="upload-section">
+        <div class="upload-section" id="uploads" runat="server">
             <label for="FileUpload1">Upload Your Image:</label>
             <asp:FileUpload ID="FileUpload1" runat="server" />
             <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
