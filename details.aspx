@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Profile</title>
+    <title>DETAILS</title>
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;

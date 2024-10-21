@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>RESULT UPLOAD</title>
     <script type="text/javascript">
     function previewCSVFile(input) {
         var file = input.files[0];

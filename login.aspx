@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Login</title>
+    <title>LOGIN</title>
     <style type="text/css">
         h2 {
             text-align: center;

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Profile Selection</title>
+    <title>PROFILE SELECTION</title>
     <style type="text/css">
         body {
             font-family: 'Arial', sans-serif;

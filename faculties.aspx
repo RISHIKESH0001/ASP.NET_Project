@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Faculties</title>
+    <title>FACULTY DATA</title>
     <style type="text/css">
         body {
             background: linear-gradient(darkblue, rgb(228, 217, 115));

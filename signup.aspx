@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sign Up</title>
+    <title>SIGN UP</title>
     <style type="text/css">
         .form-container {
             text-align: center;
@@ -23,12 +23,21 @@
             background-size: cover;
             height: 100vh;
         }
+        .auto-style1 {
+            text-align: center;
+            border-radius: 6%;
+            padding: 10px;
+            backdrop-filter: blur(10px);
+            color: white;
+            width: 514px;
+            margin-left: 411px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2 class="form-container">SIGN UP / REGISTER</h2>
+            <h2 class="auto-style1">SIGN UP / REGISTER</h2>
             <table align="center" cellpadding="5" cellspacing="10" class="form-container">
                 <tr>
                     <td class="form-field">NAME:</td>

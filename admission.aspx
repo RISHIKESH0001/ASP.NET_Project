@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Admission Form</title>
+    <title>ADMISSION FORM</title>
     <style type="text/css">
         h1 {
             text-align: center;

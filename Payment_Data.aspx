@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>PAYMENT DATA</title>
     <style type="text/css">
         body{
             background:linear-gradient(45deg,transparent,#13b64c);

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Admission Data</title>
+    <title>ADMISSION DATA</title>
     <style type="text/css">
         .auto-style1 {
             text-align: center;
