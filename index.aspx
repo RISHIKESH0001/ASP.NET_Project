@@ -239,7 +239,7 @@ code {
     background-image: url("Images/WhatsApp Image 2024-09-11 at 11.27.19_8bfb5916.jpg");
 }
 .slide.two {
-    background-image: url("Images/WhatsApp.jpg");
+    background-image: url("Images/WhatsApp1.jpg");
 }
 .slide.three {
     background-image: url("Images/WhatsApp2.jpg");
@@ -778,7 +778,7 @@ code {
         </section>
         <section class="dark">
             <div class="auto-style34">
-    <img src="Images/WhatsApp1.jpg" class="auto-style10" id="Home" alt="Image Description"/>
+    <img src="Images/WhatsApp.jpg" class="auto-style10" id="Home" alt="Image Description"/>
     <div class="overlay-text">
         <h3 style="color:darkorange; font-weight:bolder; background:transparent;">GMIT Kolkata: </h3><h3 style="color:black; font-weight:bolder; background:transparent;">Top Private BTech College</h3><br /><br />
 Gargi Memorial Institute of Technology (GMIT) is a pioneer in engineering education, marking 13 successful years since its establishment in 2011 in Baruipur, Kolkata. Approved by the All India Council for Technical Education (AICTE) and affiliated with Maulana Abul Kalam Azad University of Technology (MAKAUT), formerly known as West Bengal University of Technology (WBUT).
